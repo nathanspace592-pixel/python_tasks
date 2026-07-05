@@ -15,20 +15,16 @@ def second_largest(numbers):
         return second
 
 
-# Collect input from the user
 n = int(input("How many numbers do you want to enter? "))
 
 numbers = []
-
+    
 for i in range(n):
     num = int(input(f"Enter number {i + 1}: "))
     numbers.append(num)
 
-# Display the list
 print("List:", numbers)
 
-# Call the function
 result = second_largest(numbers)
 
-# Display the result
 print("Second largest value:", result)
